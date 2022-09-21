@@ -12,7 +12,12 @@ export class RecipeListComponent implements OnInit {
     new Recipe(
       'Test Recipe',
       'This is simply a test',
-      'https://images.unsplash.com/photo-1518779578993-ec3579fee39f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80'
+      'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg'
+    ),
+    new Recipe(
+      'Test Recipe',
+      'This is simply a test',
+      'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg'
     ),
   ];
 
