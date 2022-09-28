@@ -17,6 +17,7 @@ const appRoutes: Routes = [
   { path: "users", component: UsersComponent }, // '/users' route
   { path: "users/:id/:name", component: UserComponent }, // '/users/:id' route
   { path: "servers", component: ServersComponent }, // '/servers' route
+  { path: "servers/:id", component: ServerComponent }, // '/servers' route
   { path: "servers/:id/edit", component: EditServerComponent }, // '/servers/:id/edit' route
 ];
 
