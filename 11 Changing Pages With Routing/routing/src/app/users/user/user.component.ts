@@ -1,4 +1,4 @@
-import { Component, onDestroy, OnInit } from "@angular/core";
+import { Component, OnDestroy, OnInit } from "@angular/core";
 import { ActivatedRoute, Params } from "@angular/router";
 import { Subscription } from "rxjs/Subscription";
 
@@ -7,7 +7,7 @@ import { Subscription } from "rxjs/Subscription";
   templateUrl: "./user.component.html",
   styleUrls: ["./user.component.css"],
 })
-export class UserComponent implements OnInit, onDestroy {
+export class UserComponent implements OnInit, OnDestroy {
   user: { id: number; name: string };
   paramsSubscription: Subscription;
 
